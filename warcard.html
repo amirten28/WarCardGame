@@ -1,0 +1,38 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+        <link rel = "stylesheet" href="warcard.css">
+    </head>
+    <body>
+
+        <img id='showcardComputer'  width="150px" height="150px" src='http://www-cdr.stanford.edu/~petrie/blank.gif'>
+        <img id='showcard' width="150px" height="150px" src='http://www-cdr.stanford.edu/~petrie/blank.gif'>
+
+        <div class="flex-container">
+            <div id='computerscore'><h1>Computer Cards</h1> <h2 id='comResult'>0</h2></div> 
+            
+            <div id='yourscore'><h1 id='myscore'>My Cards</h1> <h2 id='myResult'>0</h2> </div>
+            <button type="button" id='btn1' class="btn btn-primary" onclick="dealCard(); setTimeout(computerCard, 1500);setTimeout(showScore, 3000);setTimeout(hide1, 5000);setTimeout(hide2, 5000);">Deal Card</button>
+            
+            
+         </div>
+     
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src ="warcard.js"></script> 
+    </body>
+    </html>
+    
+    

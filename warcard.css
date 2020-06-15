@@ -1,0 +1,59 @@
+body{
+    background: green;
+    margin: auto 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    justify-content: space-around;
+    position: relative;
+  }
+  #yourscore{
+    margin-top: 80px;
+    white-space: nowrap;
+    color: blue;  
+}
+  #computerscore{
+    margin-top: 120px;
+    white-space: nowrap;
+    color: red;
+    margin-bottom: 80px;
+  }
+#comResult{
+  margin-left: 120px;;  
+}
+
+#myResult{
+  margin-left: 120px;  
+}
+#myscore{
+    margin-left: 50px;
+}
+
+button{
+   position: absolute;
+   margin-left: 1000px;
+   margin-right: 30px;
+   margin-top: 180px;
+}
+
+#showcard{
+  position: absolute;
+  margin-left: 600px;
+  margin-top:350px;
+ 
+  
+}
+
+#showcardComputer{
+  position: absolute;
+  margin-left: 600px;
+  margin-top:100px;
+ 
+}
+
+
+
+
